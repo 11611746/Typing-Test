@@ -1,0 +1,58 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.mainDiv{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: #322f3d;
+}
+
+.centerDiv{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+h1{
+    font-size: 3.5rem;
+    color: #fff;
+    margin-bottom: 30px;
+    text-shadow: 1px 2px 3px #2d4059;
+}
+
+h2{
+    text-align: justify;
+    font-size: 1.5rem;
+    font-family: 'Space Mono', monospace;
+}
+
+textarea{
+    background-color: #4c4c4c;
+    box-shadow: 0 0 1px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    font-size: 1.1rem;
+    border: 10px solid #776d8a;
+    outline: none;
+    padding: 10px;
+    color: #fff;
+    font-family: 'Space Mono', monospace;
+}
+
+.mainBtn{
+    padding: 8px 40px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 1.3rem;
+    background: #322f3d;
+    color: #fff;
+    margin-top: 30px;
+    border: 5px solid #776d8a;
+    font-weight: 900;
+}

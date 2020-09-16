@@ -3,9 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
     <title>Typing Test</title>
 </head>
 <body>
+    <div class="mainDiv">
+        <div class="centerDiv">
+            <h1>Welcome To Typing Test</h1>
+            <h2 id="textDisplay" onCopy="return false;"></h2>
+            <br>
+            <textarea placeholder="Hello Geeks, Click The Start Button And Type The Above text..." id="textInput" onPaste="return false;" cols="130" rows="12"></textarea>
+            <br>
+            <button id="btn" class="mainBtn">Start</button>
+        </div>
+    </div>
     
+    <script type="text/javascript" src="typing.js"></script>
 </body>
 </html>
